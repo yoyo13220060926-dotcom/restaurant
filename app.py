@@ -4,7 +4,6 @@ import sqlite3
 import os
 
 app = Flask(__name__)
-init_db()
 CORS(app)
 
 DB_PATH = "restaurant.db"
